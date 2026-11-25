@@ -274,6 +274,7 @@ def main() -> int:
         "events": selected,
     }
 
+    os.makedirs(os.path.dirname(OUT_EVENTS), exist_ok=True)
     with open(OUT_EVENTS, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
 

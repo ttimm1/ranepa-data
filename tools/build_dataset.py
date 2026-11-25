@@ -279,7 +279,6 @@ def main() -> int:
     }
 
     os.makedirs(os.path.dirname(OUT_GROUPS), exist_ok=True)
-    os.makedirs(os.path.dirname(OUT_GROUPS), exist_ok=True)
     with open(OUT_GROUPS, "w", encoding="utf-8") as fh:
         json.dump(payload, fh, ensure_ascii=False, separators=(",", ":"))
 
