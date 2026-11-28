@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-11-27T02:49:36Z",
+  "generatedAt": "2026-11-28T02:45:16Z",
   "restPosts": 300,
   "eventsWithDate": 297,
-  "upcoming": 13,
-  "included": 21,
-  "withImage": 3,
+  "upcoming": 12,
+  "included": 20,
+  "withImage": 2,
   "categories": {
     "openDay": 1,
-    "education": 2,
     "seminar": 3,
     "conference": 9,
     "culture": 2,
     "other": 2,
-    "olympiad": 2
+    "olympiad": 2,
+    "education": 1
   },
   "firstDate": "2026-11-15",
   "lastDate": "2026-12-30",
-  "sizeKB": 87
+  "sizeKB": 83
 }
